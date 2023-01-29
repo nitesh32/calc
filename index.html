@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="cont">
+      <header id="top">
+        Calculator
+        <div id="toggler" onclick="mod()">
+          <div id="inner"></div>
+        </div>
+      </header>
+      <div id="screen">
+        <div id="state">0</div>
+        <div id="ans">0</div>
+      </div>
+      <div id="buttns-cont">
+        <div class="button" onclick="ac()">AC</div>
+        <div class="button" onclick="rem()">%</div>
+        <div class="button" onclick="devide()">
+          <i class="fa-solid fa-divide"></i>
+        </div>
+        <div class="button" onclick="cut()">
+          <i class="fa-solid fa-delete-left"></i>
+        </div>
+        <div class="button" onclick="seven()">7</div>
+        <div class="button" onclick="eight()">8</div>
+        <div class="button" onclick="nine()">9</div>
+        <div class="button" onclick="mul()">*</div>
+        <div class="button" onclick="four()">4</div>
+        <div class="button" onclick="five()">5</div>
+        <div class="button" onclick="six()">6</div>
+        <div class="button" onclick="sub()">-</div>
+        <div id="spatial">
+          <div class="spbutton" onclick="one()">1</div>
+          <div class="spbutton" onclick="two()">2</div>
+          <div class="spbutton" onclick="three()">3</div>
+          <div class="spbutton" onclick="dot()">.</div>
+          <div class="spbutton" onclick="zero()">0</div>
+          <div class="spbutton" onclick="equal()">=</div>
+        </div>
+        <div id="ad" onclick="add()">+</div>
+      </div>
+    </div>
+    <script src="index.js" ></script>
+    <script src="https://kit.fontawesome.com/4f9d871909.js" crossorigin="anonymous"></script>
+  </body>
+</html>

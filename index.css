@@ -1,0 +1,176 @@
+html{
+    font-family: Tahoma, sans-serif;
+    
+}
+:root {
+    --theme:#764abc;
+    --dark:#47257e;
+    --color:white;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#cont{
+    height: 400px;
+    min-width: 235px;
+    width: 10%;
+    border-radius: 5px;
+    background-color: var(--theme);
+    /* border: 2px solid black; */
+    box-shadow: 0px 5px 10px 0px var(--theme);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+#top{
+    height: 20px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin: 2px;
+    color: var(--color);
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 2px;
+}
+#toggler{
+    position: absolute;
+    right: 4px;
+    height: 15px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    padding: 1px;
+    align-items: center;
+    justify-content: start;
+    
+}
+#toggler:hover{
+    cursor: pointer;
+}
+#inner{
+    height: 13px;
+    width: 13px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: white;
+}
+#screen{
+    margin: 4px;
+    height: 60px;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px var(--dark);
+    background-color: #6c41b1;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: top;
+}
+#state{
+    /* border: 1px solid white; */
+    height: 30%;
+    width: 95%;
+    margin: 1px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    color: white;
+    margin-right: 2px;
+    overflow: hidden;
+}
+#ans{
+    /* border: 1px solid white; */
+    height: 50%;
+    width: 95%;
+    margin: 1px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: end;
+    font-size: 2rem;
+    color: white;
+    margin-right: 2px;
+}
+#buttns-cont{
+    margin-top: 10px;
+    height: 70%;
+    width: 90%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+    justify-content:space-around;
+}
+.button{
+    height: 15%;
+    width: 18%;
+    /* border: 2px solid white; */
+    margin: 4px;
+    border-radius: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px 0px var(--dark);
+    
+}
+.button:active{
+    background-color: white;
+    color:black;
+}
+.spbutton:active{
+    background-color: white;
+    color:black;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+#spatial{
+    height: 100px;
+    /* border: 1px solid white; */
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.spbutton{
+    height: 40px;
+    width: 40px;
+    /* border: 2px solid white; */
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px 0px var(--dark);
+}
+.spbutton:hover{
+    cursor: pointer;
+}
+#ad{
+    height: 88px;
+    /* border: 2px solid white; */
+    width: 20%;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 10px 0px var(--dark);
+}
+#ad:hover{
+    cursor: pointer;
+}
+#ad:active{
+    background-color: white;
+    color:black;
+}
